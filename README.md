@@ -70,5 +70,4 @@
 | ---------------- | --------------------------------------------------------------- | ---- |
 | `cp -i [source] [dest]` | Interactive: asks before overwriting files                | `cp -i file1.txt folder/` |
 | `cp -r [folder1] [folder2]` | Recursively copies a folder and its contents           | `cp -r folder1 folder2` |
-| `cp -a [folder1] [folder2]` | Archives: preserves properties like permissions, timestamps, symlinks | `cp -a folder1 folder2` |
-| `cp -v [source] [dest]` | Verbose: shows what is being copied                           | `cp -v file1.txt file2.txt` |
+
