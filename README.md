@@ -71,3 +71,9 @@
 | `cp -i [source] [dest]` | Interactive: asks before overwriting files                | `cp -i file1.txt folder/` |
 | `cp -r [folder1] [folder2]` | Recursively copies a folder and its contents           | `cp -r folder1 folder2` |
 
+## Chaining Commands
+
+| `[command1] ; [command2]` | Runs `[command1]` then `[command2]`, regardless of success | `mkdir test ; cd test` `echo Hello ; ls` |
+| ------------------------- | ----------------------------------------------------------- | ---- |
+| `[command1] && [command2]` | Runs `[command2]` only if `[command1]` succeeds             | `mkdir test && cd test` `touch file.txt && cat file.txt` |
+| `[command1] || [command2]` | Runs `[command2]` only if `[command1]` fails                | `cd not_found || echo "Failed to change directory"` |
