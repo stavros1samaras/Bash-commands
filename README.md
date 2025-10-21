@@ -79,25 +79,28 @@
 
 
 
+
 ## Aliases
 #### To create an aliase
 - Navigate to your home directory:
 ```bash 
 cd ~
 ```
- - Edit (or create) the .bash_profile file:
- ```
- nano .bash_profile
- ```
+- Edit (or create) the .bash_profile file:
+```bash
+nano .bash_profile
+```
 - Add the desired alias entry:
- ```
+```bash
 alias desktop="cd /c/Users/samar/Desktop && start ."
- ```
+```
 - Save press: `control + x`
 - Agree press: `Y`
 - Name the file, press: ` Enter ` or set the name
 
 Once completed, you can simply type "desktop" in any new terminal session to open your Desktop folder instantly.
+
+
 
 
 
