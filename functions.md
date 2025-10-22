@@ -1,1 +1,4 @@
 # functions
+
+
+grep "word" file
