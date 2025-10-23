@@ -1,1 +1,8 @@
-alias showProfile='nano /Users/stavros.samaras/.bash_profile'
+returnSamaras() {
+  echo "Hello Mr Samaras"
+}
+
+alias showProfile='nano /c/Users/stavros.samaras/.bash_profile'
+alias rund='npm run dev'
+alias sdev='git switch dev'
+
