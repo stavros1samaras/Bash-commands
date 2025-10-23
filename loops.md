@@ -9,3 +9,15 @@ function beeper() {
     done
 }
 ```
+#### While
+```bash
+alias beep='echo -ne "\007"'
+function beeperWhile() {
+    i=0
+    while (( i < $1 ))
+    do
+        beep
+        ((i++))   # αυξάνουμε το i κατά 1
+    done
+}
+```
