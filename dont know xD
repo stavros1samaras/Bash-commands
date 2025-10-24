@@ -5,4 +5,7 @@ returnSamaras() {
 alias showProfile='nano /c/Users/stavros.samaras/.bash_profile'
 alias rund='npm run dev'
 alias sdev='git switch dev'
+alias openPorts='netstat -ano | grep LISTENING && grep 0.0.0.0'
+export sam=123
+
 
