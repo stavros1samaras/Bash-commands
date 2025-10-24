@@ -1,0 +1,12 @@
+which <command>
+which git
+which node
+
+<command> -v
+git -v
+node -v
+bash -v
+
+<command> --version
+
+bash --version
