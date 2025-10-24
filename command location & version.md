@@ -1,4 +1,4 @@
-## which
+## command location & version
 
 ### which
 Locate where a command is stored
