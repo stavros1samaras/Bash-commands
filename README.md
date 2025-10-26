@@ -57,6 +57,7 @@
 | ---------------- | --------------------------------------------------------------- | ---- |
 | `rm -r [foldername]` | Recursively deletes a folder and its contents               | `rm -r folder1` `rm -r "my folder"` |
 | `rm -i [filename]` | Interactive: asks before deleting                              | `rm -i file.txt` |
+| `rm -rf [foldername]` | **Recursive + Force:** deletes folders and contents without any confirmation | `rm -rf folder1` &nbsp; `rm -rf "my folder"` |
 
 ## Manual/Help: man / --help
 
